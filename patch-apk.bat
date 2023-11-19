@@ -49,10 +49,10 @@ lib\aapt a 13930-v1.5-3668-mod[patched].apk assets/faq.html >nul 2>&1
 echo \033[92m[Done] | %col%
 
 :: Updates to Latest GameDB with features removed that are not supported by the libemucore.so from March 13th
-::<nul set /p "=\033[96mUpdating the \033[91mGameDB...                        " | %col%
-::lib\aapt r 13930-v1.5-3668-mod[patched].apk assets/GameIndex.yaml
-::lib\aapt a 13930-v1.5-3668-mod[patched].apk assets/GameIndex.yaml >nul 2>&1
-::echo \033[92m[Done] | %col%
+<nul set /p "=\033[96mUpdating the \033[91mGameDB...                        " | %col%
+lib\aapt r 13930-v1.5-3668-mod[patched].apk assets/GameIndex.yaml
+lib\aapt a 13930-v1.5-3668-mod[patched].apk assets/GameIndex.yaml >nul 2>&1
+echo \033[92m[Done] | %col%
 
 :: Updates the Game Controller Database
 <nul set /p "=\033[96mUpdating the \033[91mController Database...           " | %col%
