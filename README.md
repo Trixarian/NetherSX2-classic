@@ -11,9 +11,8 @@ They aim to do the following:
 * Resign the APK to prevent the Google Play Store Auto-Update from installing 3064 over it
 
 ## Prerequisites
-Windows:
 * Windows Vista or higher
-* [The Java(TM) SE Development Kit](https://www.oracle.com/java/technologies/downloads/#jdk20-windows)
+* [The Java(TM) SE Development Kit](https://www.oracle.com/java/technologies/downloads/#jdk21-windows)
 
 The rest comes prepackaged for your convenience
 
@@ -26,7 +25,7 @@ And there you go, you should now have an updated and bug fixed copy of NetherSX2
 
 ## Downloads
 * [NetherSX2-classic.zip](https://github.com/Trixarian/NetherSX2-classic/releases/download/1.0/NetherSX2-classic.zip) - Copy of these scripts. See above on how to use them
-* [nethersx2-classic.xdelta](https://github.com/Trixarian/NetherSX2-classic/releases/download/1.0/nethersx2-classic.xdelta) - The xdelta patch that can be applied to an AetherSX2 3668 apk with any patching program that supports the format and comes with all the changes pre-applied. This allows the creation of NetherSX2 on systems other than Windows, including Android when using the UniPatcher application
+* [nethersx2-classic.xdelta](https://github.com/Trixarian/NetherSX2-classic/releases/download/1.0/nethersx2-classic.xdelta) - The xdelta patch that can be applied to an AetherSX2 3668 apk with any patching program that supports the format and comes with all the changes pre-applied. This allows the creation of NetherSX2-classic on systems other than Windows, including Android when using the UniPatcher application
 
 
 NOTE: No APKs are provided due to licensing issues. You have to build it yourselves using the above methods
