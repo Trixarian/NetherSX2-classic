@@ -7,7 +7,7 @@ set md5hash=4a1751fa99bc4dcd647114c4d64e7985
 
 :: Display Banner
 echo \033[91m================================ | %col%
-echo \033[91m NetherSX2-Classic Patcher v1.7  | %col%
+echo \033[91m NetherSX2-Classic Patcher v1.0  | %col%
 echo \033[91m================================ | %col%
 
 :: Makes sure Java is installed and in the PATH

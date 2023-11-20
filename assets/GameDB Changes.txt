@@ -10,7 +10,7 @@ maximumBlendingLevel
 minimumBlendingLevel
 moveHandler
 nativePaletteDraw
-partialTargetInvalidation - removed again in later PCSX2 Nightly build, but kept for 4248
+partialTargetInvalidation - removed again in later PCSX2 Nightly builds, but kept for 4248
 recommendedBlendingLevel
 
 Functions changed after 3668:
