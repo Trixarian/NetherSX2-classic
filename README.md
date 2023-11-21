@@ -11,7 +11,7 @@ They aim to do the following:
 * Expose more Global settings in the App Settings to the user
 * Update the GameDB, Controller Support, and the Widescreen and No-Interlace Patches
 * Add additional AetherSX2/NetherSX2 spesific fixes to the GameDB
-* Resign the APK to prevent the Google Play Store Auto-Update from installing 3064 over it
+* Resign the APK to prevent Google Play Store Auto-Update from installing 3064 over it
 
 ## Prerequisites
 * Windows Vista or higher
