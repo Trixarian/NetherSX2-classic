@@ -34,20 +34,6 @@ goto update
 :: Let's leave a backup copy of the NetherSX2 APK
 copy 13930-v1.5-3668-mod.apk 13930-v1.5-3668-mod[patched].apk >nul 2>&1
 
-:: Adds Additional Options to App Settings
-<nul set /p "=\033[96mAdding more options to \033[91mApp Settings...        " | %col%
-lib\aapt r 13930-v1.5-3668-mod[patched].apk res/xml/advanced_preferences.xml
-lib\aapt a 13930-v1.5-3668-mod[patched].apk res/xml/advanced_preferences.xml >nul 2>&1
-lib\aapt r 13930-v1.5-3668-mod[patched].apk res/xml/graphics_preferences.xml
-lib\aapt a 13930-v1.5-3668-mod[patched].apk res/xml/graphics_preferences.xml >nul 2>&1
-echo \033[92m[Done] | %col%
-
-:: Updates the FAQ to show that we're using the latest version of NetherSX2
-<nul set /p "=\033[96mUpdating the \033[91mFAQ...                           " | %col%
-lib\aapt r 13930-v1.5-3668-mod[patched].apk assets/faq.html
-lib\aapt a 13930-v1.5-3668-mod[patched].apk assets/faq.html >nul 2>&1
-echo \033[92m[Done] | %col%
-
 :: Updates to Latest GameDB with features removed that are not supported by the libemucore.so from March 13th
 <nul set /p "=\033[96mUpdating the \033[91mGameDB...                        " | %col%
 lib\aapt r 13930-v1.5-3668-mod[patched].apk assets/GameIndex.yaml
@@ -70,12 +56,6 @@ echo \033[92m[Done] | %col%
 <nul set /p "=\033[96mUpdating the \033[91mNo-Interlacing Patches...        " | %col%
 lib\aapt r 13930-v1.5-3668-mod[patched].apk assets/cheats_ni.zip
 lib\aapt a 13930-v1.5-3668-mod[patched].apk assets/cheats_ni.zip >nul 2>&1
-echo \033[92m[Done] | %col%
-
-:: Adds the placeholder file that makes RetroAchievements Notifications work
-<nul set /p "=\033[96mFixing the \033[91mRetroAchievements Notifications... " | %col%
-lib\aapt r 13930-v1.5-3668-mod[patched].apk assets/placeholder.png >nul 2>&1
-lib\aapt a 13930-v1.5-3668-mod[patched].apk assets/placeholder.png >nul 2>&1
 echo \033[92m[Done] | %col%
 
 :: Resigns the APK before exiting
