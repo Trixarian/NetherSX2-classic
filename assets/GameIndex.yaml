@@ -11127,6 +11127,10 @@ SLED-53365:
 SLED-53440:
   name: "Area 51"
   region: "PAL-Unk"
+  compat: 5
+  gsHWFixes:
+    halfPixelOffset: 3 # Fixes misaligned lighting and other effects, needs Special (Aggressive) otherwise lights and textures flicker.
+    disableDepthSupport: 1 # Fixes Black Squares on the Ground
 SLED-53442:
   name: "Crash Tag Team Racing [Demo]"
   region: "PAL-E"
@@ -17189,7 +17193,8 @@ SLES-52570:
   region: "PAL-M5"
   compat: 5
   gsHWFixes:
-    halfPixelOffset: 2 # Fixes misaligned lighting and other effects, needs Special otherwise lights flicker.
+    halfPixelOffset: 3 # Fixes misaligned lighting and other effects, needs Special (Aggressive) otherwise lights and textures flicker.
+    disableDepthSupport: 1 # Fixes Black Squares on the Ground
 SLES-52571:
   name: "Pacific Air Warriors 2 - Dogfight"
   region: "PAL-E"
@@ -18651,8 +18656,10 @@ SLES-53074:
 SLES-53075:
   name: "Area 51"
   region: "PAL-M5"
+  compat: 5
   gsHWFixes:
-    halfPixelOffset: 2 # Fixes misaligned lighting and other effects, needs Special otherwise lights flicker.
+    halfPixelOffset: 3 # Fixes misaligned lighting and other effects, needs Special (Aggressive) otherwise lights and textures flicker.
+    disableDepthSupport: 1 # Fixes Black Squares on the Ground
 SLES-53076:
   name: "Triggerman"
   region: "PAL-M5"
@@ -37407,8 +37414,10 @@ SLPM-66467:
 SLPM-66468:
   name: "Area 51"
   region: "NTSC-J"
+  compat: 5
   gsHWFixes:
-    halfPixelOffset: 2 # Fixes misaligned lighting and other effects, needs Special otherwise lights flicker.
+    halfPixelOffset: 3 # Fixes misaligned lighting and other effects, needs Special (Aggressive) otherwise lights and textures flicker.
+    disableDepthSupport: 1 # Fixes Black Squares on the Ground
 SLPM-66469:
   name: "Love-Com - Punch de Court [Limited Edition]"
   region: "NTSC-J"
@@ -48975,7 +48984,8 @@ SLUS-20595:
   region: "NTSC-U"
   compat: 5
   gsHWFixes:
-    halfPixelOffset: 2 # Fixes misaligned lighting and other effects, needs Special otherwise lights flicker.
+    halfPixelOffset: 3 # Fixes misaligned lighting and other effects, needs Special (Aggressive) otherwise lights and textures flicker.
+    disableDepthSupport: 1 # Fixes Black Squares on the Ground
 SLUS-20596:
   name: "UFC - Ultimate Fighting Championship - Sudden Impact"
   region: "NTSC-U"
