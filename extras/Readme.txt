@@ -1,0 +1,1 @@
+Put the old-ui.xdelta file into the main folder to revert to the old UI
