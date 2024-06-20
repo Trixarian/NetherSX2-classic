@@ -26,7 +26,7 @@ yaml.representer.add_representer(type(None), my_represent_none)
 
 # Create filters to process the file with
 char_list = ['ß', 'à', 'á', 'â', 'ã', 'ä', 'å', 'æ', 'ç', 'è', 'é', 'ê', 'ë', 'ì', 'í', 'î', 'ï', 'ð', 'ñ', 'ò', 'ó', 'ô', 'õ', 'ö', 'ø', 'ù', 'ú', 'û', 'ü', 'ý', 'þ', 'ÿ', '¸', 'À', 'Á', 'Â', 'Ã', 'Ä', 'Å', 'Æ', 'Ç', 'È', 'É', 'Ê', 'Ë', 'Ì', 'Í', 'Î', 'Ï', 'Ð', 'Ñ', 'Ò', 'Ó', 'Ô', 'Õ', 'Ö', 'Ø', 'Ù', 'Ú', 'Û', 'Ü', 'Ý', 'Þ']
-ignore_list = ['beforeDraw', 'bilinearUpscale', 'cpuSpriteRenderLevel', 'eeCycleRate', 'eeDivRoundMode', 'estimateTextureRegion', 'getSkipCount', 'gpuTargetCLUT', 'maximumBlendingLevel', 'minimumBlendingLevel', 'name-sort', 'nativePaletteDraw', 'partialTargetInvalidation', 'recommendedBlendingLevel']
+ignore_list = ['beforeDraw', 'bilinearUpscale', 'cpuSpriteRenderLevel', 'eeCycleRate', 'eeDivRoundMode', 'estimateTextureRegion', 'getSkipCount', 'gpuTargetCLUT', 'maximumBlendingLevel', 'minimumBlendingLevel', 'name-sort', 'nativePaletteDraw', 'nativeScaling', 'partialTargetInvalidation', 'recommendedBlendingLevel']
 replace_dic = {'autoFlush: 2': 'autoFlush: 1', 'forceEvenSpritePosition:': 'wildArmsHack:', 'halfPixelOffset: 4': 'halfPixelOffset: 1', 'instantVU1:': 'InstantVU1SpeedHack:', 'mtvu:': 'MTVUSpeedHack:', 'mvuFlag:': 'mvuFlagSpeedHack:', 'name-en:': 'name:', 'vu1ClampMode:': 'vuClampMode:'}
 
 # Process file to make it compatible with NetherSX2
