@@ -29,11 +29,11 @@ The rest comes prepackaged for your convenience
 And there you go, you should now have an updated and bug fixed copy of NetherSX2-classic on your phone!
 
 ## Downloads
+###1.0: 
 * [NetherSX2-classic.zip](https://github.com/Trixarian/NetherSX2-classic/releases/download/1.0/NetherSX2-classic.zip) - Copy of these scripts. See above on how to use them
 * [nethersx2-classic.xdelta](https://github.com/Trixarian/NetherSX2-classic/releases/download/1.0/nethersx2-classic.xdelta) - The xdelta patch that can be applied to an AetherSX2 3668 apk with any patching program that supports the format and comes with all the changes pre-applied. This allows the creation of NetherSX2-classic on systems other than Windows, including Android when using the UniPatcher application
-
-
-NOTE: No APKs are provided due to licensing issues. You have to build it yourselves using the above methods
+###Development Builds:
+[NetherSX2-Classic v2.0a](https://github.com/Trixarian/NetherSX2-classic/releases/download/2.0a/15210-v2.0-3668-signed.apk) - Developmental version released as an apk to see if anybody will try to enforce the license a year after AetherSX2 was delisted
 
 ## Credits
 * PCSX2: <https://github.com/PCSX2/pcsx2> 
