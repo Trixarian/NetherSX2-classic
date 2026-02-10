@@ -32,7 +32,9 @@ If you were using AetherSX2 or a copy of NetherSX2 older than 1.9a:
 ### Why use NetherSX2 over AetherSX2?
 Use NetherSX2 if you want:
 * RetroArchievements
+* Online Gaming Support
 * Up to date configuration files
+* No Ads (for AetherSX2 3036/4248 users)
 * NetherSX2 spesific bug fixes for games
 * Better controller support for automatic setup
 * Have more control over your emulator via settings
